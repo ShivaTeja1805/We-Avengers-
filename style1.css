@@ -14,7 +14,7 @@ nav .logo:hover{
     cursor: pointer;
 }
 .container{
-    padding: 3vmin 2vmin;
+/*     padding: 3vmin 2vmin; */
     display: flex;
     gap: 2vmin;
     flex-direction: column;
@@ -134,14 +134,14 @@ footer p a:hover{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 5vmax;
+        gap: 2vmax;
     }
 }
 
 @media(max-width:450px){
     .container .box{
-        height:50vmax;
-        width: 60%;
+        height:70vmax;
+        width: 80%;
         border-radius: 1vmax;
         flex-direction: column;
     }
