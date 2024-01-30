@@ -128,11 +128,11 @@ footer p a:hover{
 
 @media(max-width:450px){
     .slider img{
-        height: 40vmax;
+        height: 30vmax;
     }
     .picsection .box{
-        height: 50vmax;
-        width: 40vmax;
+        height: 40vmax;
+        width: 30vmax;
         border-radius: 1vmin;
         overflow: hidden;
 
