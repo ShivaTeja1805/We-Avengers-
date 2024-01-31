@@ -14,10 +14,6 @@ nav .logo:hover{
     cursor: pointer;
 }
 .container{
-<<<<<<< HEAD
-=======
-/*     padding: 3vmin 2vmin; */
->>>>>>> 665fbe8a108310fa087c80b89d4c3a2d50d533f7
     display: flex;
     gap: 2vmin;
     flex-direction: column;
@@ -150,7 +146,6 @@ footer p a:hover{
         width:60%;
         background-position: center;
     }
-<<<<<<< HEAD
     .box .img3{
         width:60%;
         background-position: center;
@@ -182,25 +177,20 @@ footer p a:hover{
         width: 35px;
         padding-left: 8px;
         padding-top: 2px; 
-=======
     .container{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 2vmax;
->>>>>>> 665fbe8a108310fa087c80b89d4c3a2d50d533f7
     }
 }
 
 @media(max-width:450px){
     .container .box{
-<<<<<<< HEAD
         height:50vmax;
         width: 90%;
-=======
         height:70vmax;
         width: 80%;
->>>>>>> 665fbe8a108310fa087c80b89d4c3a2d50d533f7
         border-radius: 1vmax;
         flex-direction: column;
     }
