@@ -19,7 +19,7 @@ nav .logo:hover{
     cursor: pointer;
 }
 
-.picsection{
+.container{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -27,9 +27,10 @@ nav .logo:hover{
     flex-wrap: wrap;
     perspective:1000px;
     padding-top: 2vmax;
+    
 }
 
-.picsection .box{
+.container .box{
     height: 60vmin;
     width: 50vmin;
     border-radius: 1vmin;
@@ -41,7 +42,7 @@ nav .logo:hover{
     transition: all 0.3s ease-in-out;
 }
 
-.picsection .box:hover{
+.container .box:hover{
     transform: rotateY(5deg);
     border: 1px solid black;
     box-shadow: 0 0 2vmin black;
@@ -101,38 +102,19 @@ footer p a:hover{
 
 
 /* ------------MEDIA QURIES--------------------------- */
-/* @media (max-width:500px){
+@media (max-width:500px){
     .carousel-indicators{
         display: none;
     }
-    .pic{
-        height: 30vmax;
-        width: 30vmax;
-    }
-    .pic img{
-        object-fit: cover;
-    }
-    h1{
-        font-size: 3vmax;
-    }
-    strong{
-        font-size: 2vmax;
-    }
-    .container{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 5vmax;
-    }
-} */
+}
 
 @media(max-width:450px){
     .slider img{
-        height: 40vmax;
+        height: 30vmax;
     }
-    .picsection .box{
-        height: 50vmax;
-        width: 40vmax;
+    .container .box{
+        height: 40vmax;
+        width: 30vmax;
         border-radius: 1vmin;
         overflow: hidden;
 
