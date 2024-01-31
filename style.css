@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* body{
-    background-color: #30343F;
-} */
 nav{
     background-color: #1B2021;
 }
@@ -112,11 +109,7 @@ footer p a:hover{
     .slider img{
         height: 30vmax;
     }
-<<<<<<< HEAD
     .container .box{
-=======
-    .picsection .box{
->>>>>>> 665fbe8a108310fa087c80b89d4c3a2d50d533f7
         height: 40vmax;
         width: 30vmax;
         border-radius: 1vmin;
